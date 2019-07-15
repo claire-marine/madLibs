@@ -1,0 +1,43 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+
+h1 {
+text-align: center;
+font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  text-align: center;
+  padding: 30px;
+}
+ label {
+   padding: 20px;
+
+   font-size: 20px;
+ }
+
+
+ body {
+  background:
+  linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, black 25%, transparent 25%),
+  linear-gradient(45deg, black 25%, transparent 25%);
+  background-size: 2em 2em;
+  background-color: #232323;
+}
